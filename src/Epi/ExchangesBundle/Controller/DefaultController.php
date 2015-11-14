@@ -11,7 +11,7 @@ class DefaultController extends Controller
         $data = $this->loadData();
         return $this->render('EpiExchangesBundle:Default:index.html.twig', array('data' => $data));
     }
-
+    // test
     public function viewAction($code)
     {
       $data = $this->loadData();
